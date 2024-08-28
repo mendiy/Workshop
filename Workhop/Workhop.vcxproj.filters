@@ -15,10 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="part_1\Boolean.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="part_1\Helper.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="part_1\IndentationException.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="part_1\Integer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="part_1\Interpreter.cpp">
@@ -27,15 +33,33 @@
     <ClCompile Include="part_1\Parser.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="part_1\Sequence.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="part_1\String.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="part_1\SyntaxException.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="part_1\Type.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="part_1\Void.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="part_1\Boolean.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="part_1\Helper.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="part_1\IndentationException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="part_1\Integer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="part_1\InterpreterException.h">
@@ -44,7 +68,19 @@
     <ClInclude Include="part_1\Parser.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="part_1\Sequence.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="part_1\String.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="part_1\SyntaxException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="part_1\Type.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="part_1\Void.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

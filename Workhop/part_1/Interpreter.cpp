@@ -10,7 +10,7 @@
 int main(int argc,char **argv)
 {
 	std::cout << WELCOME << YOUR_NAME << std::endl;
-
+	Type* element = nullptr;
 	std::string input_string;
 
 	// get new command from user
@@ -22,7 +22,11 @@ int main(int argc,char **argv)
 		try
 		{
 			// parsing command
-			Parser::parseString(input_string);
+			element = Parser::parseString(input_string);
+			if (element->isPrintable())
+			{
+				std::cout << element->toString() << std::endl;
+			}
 		}
 		catch (std::exception& msg)
 		{
