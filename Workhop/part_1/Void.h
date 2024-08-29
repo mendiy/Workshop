@@ -3,7 +3,7 @@
 #include "Type.h"
 #include <iostream>
 
-class String : public Type
+class Void : public Type
 
 {
 public:

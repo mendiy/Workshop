@@ -5,6 +5,7 @@ class Type
 {
 	public:
 		Type() { _isTemp = false; };
+		Type(Type & other);
 		~Type() {};
 		void setIsTemp(bool state) { _isTemp = state; }
 		bool getIsTemp() { return _isTemp; }

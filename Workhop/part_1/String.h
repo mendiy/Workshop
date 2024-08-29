@@ -11,7 +11,6 @@ public:
 	String(std::string str)
 		: Sequence()
 	{
-
 		_str = str;
 	}
 	~String() {};
